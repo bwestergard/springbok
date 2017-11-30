@@ -2,7 +2,7 @@
 
 A minimalist functional programming utility library that ships with Flow types.
 
-# Functions
+## Functions
 
 - sort: `<T>( fn: (T) => number, list: T[] ) => T[]`
 - reduce: `<T, R>( fn: (acc: R, x: T) => R, acc: R, list: $ReadOnlyArray<T> ) => R`
