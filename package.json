@@ -1,0 +1,23 @@
+{
+  "name": "springbok",
+  "version": "0.0.1",
+  "description": "A minimalist functional programming utility library that ships with Flow types.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "flow-remove-types src/ -d lib/"
+  },
+  "keywords": [
+    "fp",
+    "functional",
+    "minimal",
+    "flowtyped",
+    "flow"
+  ],
+  "devDependencies": {
+    "flow-bin": "^0.58.0",
+    "flow-remove-types": "^1.2.3"
+  },
+  "author": "Bjorn Westergard",
+  "license": "MIT"
+}
